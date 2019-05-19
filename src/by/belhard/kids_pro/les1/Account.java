@@ -1,4 +1,4 @@
-package by.belhard.kids_pro;
+package by.belhard.kids_pro.les1;
 
 public class Account {
 

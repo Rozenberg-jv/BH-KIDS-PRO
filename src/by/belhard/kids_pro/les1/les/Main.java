@@ -1,4 +1,4 @@
-package by.belhard.kids_pro.les;
+package by.belhard.kids_pro.les1.les;
 
 import java.util.ArrayList;
 
