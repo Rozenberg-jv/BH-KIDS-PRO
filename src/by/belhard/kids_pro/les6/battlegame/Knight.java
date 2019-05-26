@@ -4,12 +4,12 @@ public class Knight extends AbstractUnit {
 
     private static final int KNIGHT_BLOCK_ABILITY_CHANCE = 10;
 
-    public Knight(int maxHealth, int armor, Weapon weapon) {
-        super(maxHealth, armor, weapon);
+    public Knight(String name, int maxHealth, int armor, Weapon weapon) {
+        super(name, maxHealth, armor, weapon);
     }
 
     @Override
-    public boolean attack(AbstractUnit target) {
+    public int attack(AbstractUnit target) {
 
         int damage = this.getWeapon().getDamage();
 
