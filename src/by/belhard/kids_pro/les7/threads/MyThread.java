@@ -1,4 +1,4 @@
-package by.belhard.kids_pro.threads;
+package by.belhard.kids_pro.les7.threads;
 
 public class MyThread extends Thread {
 
